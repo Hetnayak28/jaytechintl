@@ -1,0 +1,140 @@
+/* Facilities Page Styles */
+.facilities-page {
+    padding-top: 80px;
+}
+
+.facilities-hero {
+    background: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.facilities-hero h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.facilities-hero p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Facilities Grid Section */
+.facilities-grid {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.facilities-grid .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.facility-item {
+    text-align: center;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.facility-item:hover {
+    transform: translateY(-5px);
+}
+
+.facility-icon {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.facility-item h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.facility-item p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Equipment List Section */
+.equipment-list {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.equipment-list h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.equipment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.equipment-category {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.equipment-category h3 {
+    color: #007bff;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #007bff;
+}
+
+.equipment-category ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.equipment-category ul li {
+    color: #666;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.equipment-category ul li:last-child {
+    border-bottom: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .facilities-hero h1 {
+        font-size: 2rem;
+    }
+
+    .facilities-hero p {
+        font-size: 1rem;
+    }
+
+    .facility-item {
+        padding: 20px;
+    }
+
+    .equipment-list h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Active Navigation Link */
+.active {
+    color: #007bff !important;
+} 

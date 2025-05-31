@@ -1,0 +1,210 @@
+/* About Page Styles */
+.about-page {
+    padding-top: 80px;
+}
+
+.about-hero {
+    background: #fff;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Company Intro Section */
+.company-intro {
+    padding: 60px 0;
+    background: #fff;
+}
+
+.main-title {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #666;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Vision Mission Section */
+.vision-mission {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.vision, .mission {
+    margin-bottom: 40px;
+}
+
+.vision h2, .mission h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.vision h2::after, .mission h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background: #007bff;
+}
+
+.mission ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mission ul li {
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+    color: #555;
+    line-height: 1.6;
+}
+
+.mission ul li::before {
+    content: '•';
+    color: #007bff;
+    position: absolute;
+    left: 0;
+    font-size: 1.5em;
+}
+
+/* Company Stats Section */
+.company-stats {
+    padding: 60px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.company-stats .container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.stat-item h3 {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    font-size: 1.2rem;
+    color: #555;
+    text-transform: uppercase;
+}
+
+/* Company Profile Section */
+.company-profile {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.company-profile h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 2rem;
+}
+
+.profile-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.profile-table tr {
+    border-bottom: 1px solid #eee;
+}
+
+.profile-table tr:last-child {
+    border-bottom: none;
+}
+
+.profile-table th,
+.profile-table td {
+    padding: 20px;
+    text-align: left;
+}
+
+.profile-table th {
+    background: #f8f9fa;
+    font-weight: 600;
+    width: 40%;
+    color: #333;
+}
+
+.profile-table td {
+    color: #555;
+}
+
+.profile-table td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.profile-table td a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about-hero h1 {
+        font-size: 2rem;
+    }
+
+    .company-stats .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .profile-table {
+        font-size: 0.9rem;
+    }
+
+    .profile-table th,
+    .profile-table td {
+        padding: 15px;
+    }
+}
+
+/* Active Navigation Link */
+.active {
+    color: #007bff !important;
+} 

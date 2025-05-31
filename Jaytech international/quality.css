@@ -1,0 +1,192 @@
+/* Quality Policy Page Styles */
+.quality-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.quality-container h1 {
+    font-size: 3.5em;
+    color: #0066FF;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.policy-text {
+    max-width: 900px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.policy-text p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.quality-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.quality-section {
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.quality-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.quality-section p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.quality-section ol {
+    padding-left: 25px;
+    margin-top: 20px;
+}
+
+.quality-section li {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    padding-left: 10px;
+}
+
+.highlights {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 60px 0;
+    gap: 40px;
+    text-align: center;
+}
+
+.highlights h6 {
+    font-size: 1.3em;
+    color: #333;
+    margin: 0;
+    padding: 15px 25px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+.certification-section {
+    margin: 60px 0;
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.certification-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.certification-section h3 {
+    font-size: 1.3em;
+    color: #666;
+    margin: 15px 0;
+    font-weight: normal;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .quality-container {
+        margin: 40px auto;
+    }
+
+    .quality-container h1 {
+        font-size: 2.5em;
+        margin-bottom: 30px;
+    }
+
+    .policy-text {
+        margin-bottom: 40px;
+    }
+
+    .policy-text p {
+        font-size: 1.1em;
+        line-height: 1.6;
+    }
+
+    .quality-section h2 {
+        font-size: 1.8em;
+        margin-bottom: 25px;
+    }
+
+    .quality-section li {
+        font-size: 1.1em;
+        margin-bottom: 12px;
+    }
+
+    .highlights {
+        gap: 20px;
+    }
+
+    .highlights h6 {
+        font-size: 1.2em;
+        padding: 12px 20px;
+        min-width: 180px;
+    }
+
+    .certification-section {
+        padding: 30px;
+        margin: 40px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .quality-container {
+        margin: 30px auto;
+    }
+
+    .quality-container h1 {
+        font-size: 2em;
+        margin-bottom: 25px;
+    }
+
+    .policy-text p {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+    .quality-section h2 {
+        font-size: 1.5em;
+    }
+
+    .quality-section li {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    .highlights {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .highlights h6 {
+        font-size: 1.1em;
+        padding: 10px 15px;
+        min-width: auto;
+        width: 100%;
+    }
+
+    .certification-section {
+        padding: 20px;
+        margin: 30px 0;
+    }
+} 
